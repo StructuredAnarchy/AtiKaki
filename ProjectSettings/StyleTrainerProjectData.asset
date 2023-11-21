@@ -1,0 +1,656 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07c9b2c97f84356bb2bfac29363e611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StyleTrainerData:
+    rid: 1202576952880005120
+  m_DefaultStyleData:
+    rid: 1202576952880005121
+  m_DefaultStyleVersion: 2023090802
+  m_DefaultStyles:
+  - rid: 1202576952880005219
+  m_AssetPath: 
+  m_PreviousProjectIDs: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1202576952880005120
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 1202576952880005220
+        m_Version: 202231001
+    - rid: 1202576952880005121
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 11000000-0000-0000-0000-000000000011
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 1202576952880005344
+        m_Version: 202231001
+    - rid: 1202576952880005219
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 1
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 0
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 00000000-0000-0000-0000-000000000000
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 00000000-0000-0000-0000-000000000000
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 00000000-0000-0000-0000-000000000000
+          m_Name: Default
+          m_Description: Default style.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 
+            m_State: 0
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 
+          m_ValidationImagesData: []
+          m_TrainingSteps: 0
+        m_SampleOutputPrompts: []
+        m_TrainingSetData: []
+        m_Name: Default
+        m_Description: Default style.
+    - rid: 1202576952880005220
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 1e5f6d6e-5eb9-4437-a963-83b0389e7c84
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: 1202576952880005224
+        m_Visible: 1
+        selectedCheckPointGUID: 6d77dfe7-dbf0-421f-abd3-22dafc261c4e
+        m_FavoriteCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: bfed6435-5670-422a-ad91-dc6ae8a5bbe8
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: c05f268f-d026-4a44-9204-35d6394c2eec
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: c05f268f-d026-4a44-9204-35d6394c2eec
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: 8a93933f-4c23-4402-bcd1-dafb1d51f3fd
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 8a93933f-4c23-4402-bcd1-dafb1d51f3fd
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: e141636d-af74-4ee4-bfa4-4e767ac7ad41
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: e141636d-af74-4ee4-bfa4-4e767ac7ad41
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 200
+        - m_Guid: b1ab1b90-2182-4b24-a5e9-25e53fbf1938
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: 29b67a49-4e91-4e70-84af-38e09e478548
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 29b67a49-4e91-4e70-84af-38e09e478548
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: 8ddf2019-3ddf-487c-88f4-41246da05c38
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 8ddf2019-3ddf-487c-88f4-41246da05c38
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: 09bb3492-b52c-46aa-88c2-285c9d57f019
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 09bb3492-b52c-46aa-88c2-285c9d57f019
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 400
+        - m_Guid: 8c6d3a5e-5428-44b4-903d-9eeecff19de0
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: a5cb56af-7798-4369-b640-36090f34b8b9
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: a5cb56af-7798-4369-b640-36090f34b8b9
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: 20a4402d-fc3b-4b2f-b0ac-c77c4c66920c
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 20a4402d-fc3b-4b2f-b0ac-c77c4c66920c
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: 15824a39-42ed-45a1-bb2b-befcf79381fe
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 15824a39-42ed-45a1-bb2b-befcf79381fe
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 600
+        - m_Guid: e7e6d073-3f71-41df-88d3-a6373fa9a823
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: f145ba29-29c5-49f6-aed6-ca022286244e
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: f145ba29-29c5-49f6-aed6-ca022286244e
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: 791403be-840b-4d00-8f6b-12312defd77c
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 791403be-840b-4d00-8f6b-12312defd77c
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: b9832f38-19f5-4fa0-be92-c49e3b783152
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: b9832f38-19f5-4fa0-be92-c49e3b783152
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 800
+        - m_Guid: e066a831-abf4-4fb7-9c22-3ea822686575
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: 05802c8f-55af-4add-8d01-e6acef911d64
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 05802c8f-55af-4add-8d01-e6acef911d64
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: d7b80beb-cb66-4a71-ae98-f839b2efaa2d
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: d7b80beb-cb66-4a71-ae98-f839b2efaa2d
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: b39d0402-261e-473a-8ae6-bece36a5e767
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: b39d0402-261e-473a-8ae6-bece36a5e767
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 1000
+        - m_Guid: 58829ddb-dfc8-41fe-b78a-bb9ebbb926ab
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: 705586a8-b076-4f43-af5f-4e5c53139da6
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 705586a8-b076-4f43-af5f-4e5c53139da6
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: 67766299-0d0b-428d-b356-69c214dbc019
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 67766299-0d0b-428d-b356-69c214dbc019
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: 35752b49-f8d4-417e-a86b-048a015eda95
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 35752b49-f8d4-417e-a86b-048a015eda95
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 1200
+        - m_Guid: 052f66b6-405e-42ff-be49-530174d3f8f0
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: 4a726ffa-33ae-4b47-a0ed-5c76a65dc887
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 4a726ffa-33ae-4b47-a0ed-5c76a65dc887
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: ddb29421-ba4e-4f9a-be80-c08f38013588
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: ddb29421-ba4e-4f9a-be80-c08f38013588
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: a75899ea-37d9-41bd-8ab1-8223f3a49fb1
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: a75899ea-37d9-41bd-8ab1-8223f3a49fb1
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 1400
+        - m_Guid: 2ff4b131-0608-45ff-be06-11994ce026be
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: ec762a35-c528-4ee6-a221-2080ec2f2a58
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: ec762a35-c528-4ee6-a221-2080ec2f2a58
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: bb402db5-e844-4836-b497-b18950e24ddc
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: bb402db5-e844-4836-b497-b18950e24ddc
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: 312e6b9b-d80b-4a3a-8044-d2b9d37af598
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 312e6b9b-d80b-4a3a-8044-d2b9d37af598
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 1600
+        - m_Guid: c16729a4-7d3e-4162-86bb-05f57d07cf4a
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: 1187ef8d-9ff0-4ecb-b517-e68cb8c4d6b2
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 1187ef8d-9ff0-4ecb-b517-e68cb8c4d6b2
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: f6b19d25-6f47-4c45-91dd-d284d1c5eea3
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: f6b19d25-6f47-4c45-91dd-d284d1c5eea3
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: 454bbc94-e881-4204-ba56-42a927bc5d11
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 454bbc94-e881-4204-ba56-42a927bc5d11
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 1800
+        - m_Guid: 6d77dfe7-dbf0-421f-abd3-22dafc261c4e
+          m_State: 5
+          m_Disposing: 0
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_Name: AtiGame
+          m_Description: Set a description here to help you remember what this style
+            is for.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+          m_ValidationImagesData:
+          - m_Guid: 76b78ed0-7814-4b70-b52c-fada8ea44f43
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 76b78ed0-7814-4b70-b52c-fada8ea44f43
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: monster catholic mushrom
+          - m_Guid: f4f7da3d-0d39-45aa-9123-994efb302df9
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: f4f7da3d-0d39-45aa-9123-994efb302df9
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: platformer
+          - m_Guid: 69776842-c3fd-4fb4-b293-3b8da424fe56
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 69776842-c3fd-4fb4-b293-3b8da424fe56
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: 2d character
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts:
+        - monster catholic mushrom
+        - platformer
+        - 2d character
+        m_TrainingSetData:
+        - m_Guid: 6bb1d53e-df81-40ce-8a1e-f8854cab77a7
+          m_State: 5
+          m_Disposing: 0
+          m_TrainingSet:
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 1202576952880005233
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 1202576952880005340
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 1202576952880005341
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 1202576952880005342
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 1202576952880005343
+          m_ProjectID: 00c69636-454d-49e0-8ec5-8ecb4af2e7f2
+        m_Name: AtiGame
+        m_Description: Set a description here to help you remember what this style
+          is for.
+    - rid: 1202576952880005224
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 3
+        m_Disposing: 1
+    - rid: 1202576952880005233
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-64ae7b98-0d05-4651-a4f2-bb5f34eb7777
+        m_State: 3
+        m_Disposing: 1
+    - rid: 1202576952880005340
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-19ea006f-e63c-43c6-8a45-bd5b4c6b09ca
+        m_State: 3
+        m_Disposing: 1
+    - rid: 1202576952880005341
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-2f82d547-7aa4-4172-ae2e-b0c1a408d64d
+        m_State: 3
+        m_Disposing: 1
+    - rid: 1202576952880005342
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-ef357f2f-99cd-436f-a459-bf48807578cd
+        m_State: 3
+        m_Disposing: 1
+    - rid: 1202576952880005343
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-419852cb-7d00-4adf-9bb5-d5b7abb9f6e0
+        m_State: 3
+        m_Disposing: 1
+    - rid: 1202576952880005344
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 5cc104e0-423a-473e-8034-b9d346cb2357
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 1
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_Name: Happy Harvest [Orion V4 2000]
+          m_Description: 8 Nov 2023
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_ValidationImagesData:
+          - m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A chicken
+          - m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A cow
+          - m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A dog
+          - m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A farmer
+          - m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A pine tree
+          m_TrainingSteps: 1200
+        m_SampleOutputPrompts:
+        - A chicken
+        - A cow
+        - A dog
+        - A farmer
+        - A pine tree
+        m_TrainingSetData:
+        - m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+          m_State: 5
+          m_Disposing: 0
+          m_TrainingSet: []
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_Name: Default
+        m_Description: Default Style
